@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RăsadVerde - Pepiniera ta</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -18,36 +18,304 @@
         <header class="header">
              <div class="search">🔍 Caută o plantă...</div>
             <a class="logo" href="#">
-                <span class="logo">🌱</span>RăsadăVerde</span>
+                <span class="logo">🌱</span>RăsadVerde</span>
             </a>
             <a class="order-button" href="#servicii">Comandă puieți</a>
              </header>
 
             <nav class="navigation">
                 <a class="active" href="#catalog">Acasă</a>
-                <a href="#acasa">Acasă</a>
-                <a href="#pomi">Pomi</a>
-                <a href="#arbusti">Arbuști</a>
-                <a href="#gradinarit">Grădinărit</a>
+                <a href="#catalog">Acasă</a>
+                <a href="#catalog">Pomi</a>
+                <a href="#catalog">Arbuști</a>
+                <a href="#servicii">Grădinărit</a>
                 <a href="#contact">Contact</a>
             </nav>
-            <a href="#catalog" class="btn">Comandă puieți</a>
         </header>
          <main id="acasa">
             <section class="hero container">
                 <div class="hero-image">
-                    <img src="https://www.figma.com/design/Hva9JQfuwfIpBw76ApBBSJ/PDAW-EP?node-id=10-12867&t=K17yS04kgb9fJASk-4" alt="Plante crescute în pepinieră">
+                    <img src="8e46f9c9a9a87096637ce1f4defb99f9c231855d.jpg" alt="Plante crescute în pepinieră">
                 </div>
-                <div class="discount">-25%<small>la puieți</small></div>
-                <div class="image-label">🌳 Se prinde sigur</div>
+                <div class="discount">
+                    <strong>−25%</strong>
+                    <span>la puieți</span>
+                </div>
+                <div class="photo-label">
+                    <span>🌳</span>
+                    <div>
+                        <strong>Se prinde sigur</strong>
+                        <small>înlocuim puietul uscat</small>
+                    </div>
+                </div>
             </div>
-            <div class="hero-text">
-                <span class="pill">Sezoul de plante de toamnă</span>
-                <h1>Puieți crescuți la noi, gata de plantat</h1>
-                <p>Pomi fructifieri</p>
+            <div class="hero-content">
+                <span class="season-label">Sezonul de plantare de toamnă</span>
+                <h1>Puieți crescuți<br> la noi, gata de<br> plantat</h1>
+                <p> Pomi fructiferi altoiți, arbuști ornamentali și trandafiri crescuți pe câmpurile noastre de lângă Bălți. Aclimatizați la iernile din Moldova.</p>
+                <div class="hero-actions">
+                    <a href="#catalog" class="btn-primary">Vezi catalogul</a>
+                    <a href="#servicii" class="btn-outline">Alege soiul potrivit</a>
+                </div>
+                <div class="statistics">
+                    <div>
+                        <strong>350+</strong>
+                        <small>soiuri</small>
+                    </div>
+                    <div>
+                        <strong>12 ha</strong>
+                        <small>de culturi</small>
+                    </div>
+                    <div>
+                        <strong>1998</strong>
+                        <small>anul fondării</small>
+                    </div>
+                </div>
             </div>
-                </section>
             </section>
-         </main>
+
+            <section class="advantages">
+            <div class="advantages-intro">
+                <span class="eyebrow">DE CE NOI?</span>
+                <h2>Plante care<br>se prind</h2>
+                <p> Nu revendim puieți aduși din import: îi creștem de la sămânță sau altoi.</p>
+                <a href="#contact" class="btn-primary">Vino în pepinieră</a>
+            </div>
+
+            <div class="advantages-grid">
+                <article class="advantage-card">
+                    <span class="advantage-icon">🌳</span>
+                    <h3>Altoiți de noi</h3>
+                    <p>Pe portaltoi rezistenți la secetă și ger.</p>
+                </article>
+                <article class="advantage-card">
+                    <span class="advantage-icon">🧑‍🌾</span>
+                    <h3>Agronom în pepinieră</h3>
+                    <p>Te ajută să alegi soiul potrivit solului.</p>
+                </article>
+                <article class="advantage-card">
+                    <span class="advantage-icon">📦</span>
+                    <h3>Ambalați pentru drum</h3>
+                    <p>Rădăcinile protejate, puieții în stare bună.</p>
+                </article>
+                <article class="advantage-card">
+                    <span class="advantage-icon">♻️</span>
+                    <h3>Garanție de prindere</h3>
+                    <p>Dacă nu pornește în primăvară, îl înlocuim.</p>
+                </article>
+            </div>
+        </section>
+        
+        <section class="catalog" id="catalog">
+            <div class="section-heading">
+                <span class="eyebrow">CATALOG</span>
+                <h2>Cei mai căutați puieți</h2>
+                <p>Puieți crescuți pe câmpuri și aclimatizați în containere.</p>
+            </div>
+            <div class="plants-grid">
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="margolden.jpg" alt="Măr Golden">
+                        <span class="plant-badge">TOP</span>
+                        <span class="heart">♡</span>
+                    </div>
+                    <h3>Măr Golden</h3>
+                    <p>2 ani · altoit pe M9</p>
+                    <div class="plant-bottom"><strong>120 lei</strong><a href="#contact">+</a></div>
+                </article>
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="./cireskordia.jpg" alt="Cireș Kordia">
+                        <span class="heart">♡</span>
+                    </div>
+                    <h3>Cireș Kordia</h3>
+                    <p>2 ani · rod târziu</p>
+                    <div class="plant-bottom"><strong>150 lei</strong><a href="#contact">+</a></div>
+                </article>
+
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="./nuccalarasi.jpg" alt="Nuc Călărași">
+                        <span class="heart">♡</span>
+                    </div>
+                    <h3>Nuc Călărași</h3>
+                    <p>3 ani · altoit</p>
+                    <div class="plant-bottom"><strong>380 lei</strong><a href="#contact">+</a></div>
+                </article>
+
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="./trandafiruscator.jpg" alt="Trandafir urcător">
+                        <span class="plant-badge sale">−20%</span>
+                        <span class="heart">♡</span>
+                    </div>
+                    <h3>Trandafir urcător</h3>
+                    <p>roșu · 1,5m</p>
+                    <div class="plant-bottom"><strong>95 lei <del>130</del></strong><a href="#contact">+</a></div>
+                </article>
+
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="./tuiasmaragd.jpg" alt="Tuia Smaragd">
+                        <span class="heart">♡</span>
+                    </div>
+                    <h3>Tuia Smaragd</h3>
+                    <p>80–100 cm · gard viu</p>
+                    <div class="plant-bottom"><strong>160 lei</strong><a href="#contact">+</a></div>
+                </article>
+
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="./lavanda.jpg" alt="Lavandă">
+                        <span class="heart">♡</span>
+                    </div>
+                    <h3>Lavandă</h3>
+                    <p>ghiveci 1l · Hidcote</p>
+                    <div class="plant-bottom"><strong>45 lei</strong><a href="#contact">+</a></div>
+                </article>
+
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="./afindegradina.jpg" alt="Afin de grădină">
+                        <span class="plant-badge new">NOU</span>
+                        <span class="heart">♡</span>
+                        </div>
+                    <h3>Afin de grădină</h3>
+                    <p>3 ani · soi timpuriu</p>
+                    <div class="plant-bottom"><strong>140 lei</strong><a href="#contact">+</a></div>
+                </article>
+
+                <article class="plant-card">
+                    <div class="plant-image">
+                        <img src="./hortensie.jpg" alt="Hortensie">
+                        <span class="heart">♡</span>
+                    </div>
+                    <h3>Hortensie</h3>
+                    <p>albastră · ghiveci 5l</p>
+                    <div class="plant-bottom"><strong>210 lei</strong><a href="#contact">+</a></div>
+                </article>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="section-heading">
+                <span class="eyebrow">RECENZII</span>
+                <h2>Grădinile clienților noștri</h2>
+            </div>
+            <div class="reviews-grid">
+                <article class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Am plantat 40 de meri în 2022 și s-au prins toți. Anul acesta am cules primele lăzi de mere.</p>
+                    <div class="review-author">
+                        <span class="avatar">GB</span>
+                        <div><strong>Gheorghe Bivol</strong><small>livadă, Sîngerei</small></div>
+                    </div>
+                </article>
+                <article class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Agronomul mi-a recomandat soiuri potrivite pentru solul nostru nisipos. Funcționează!</p>
+                    <div class="review-author">
+                        <span class="avatar gold">EU</span>
+                        <div><strong>Elena Ursachi</strong><small> grădină în Bălți</small></div>
+                    </div>
+                </article>
+                <article class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Gardul viu din tuia arată superb după doar doi ani.</p>
+                    <div class="review-author">
+                        <span class="avatar">AC</span>
+                        <div><strong>Andrei Cucu</strong><small>casă nouă, Chișinău</small></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="nursery">
+            <div class="section-heading">
+                <span class="eyebrow">PEPINIERA</span>
+                <h2>Pe câmpurile noastre</h2>
+            </div>
+            <div class="gallery-grid">
+                <img src="./pepiniera.jpg" alt="Pepinieră">
+                <img src="./gradina.jpg" alt="Grădină">
+                <img src="./copaci.jpg" alt="Copaci">
+                <img src="./plante.jpg" alt="Plante">
+            </div>
+        </section>
+        <section class="services" id="servicii">
+            <div class="section-heading">
+                <span class="eyebrow">GRĂDINĂRIT</span>
+                <h2>Îngrijim grădina în locul tău</h2>
+                <p>Echipa noastră vine regulat pentru tăieri, tratamente și fertilizare.</p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <h3>Curte mică</h3>
+                    <div class="price">600 lei <small>/lună</small></div>
+                    <ul>
+                        <li>Până la 3 ari</li>
+                        <li>O vizită pe lună</li>
+                        <li>Tunderea arbuștilor</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline">Comandă</a>
+                </article>
+                <article class="service-card featured">
+                    <span class="recommended">RECOMANDAT</span>
+                    <h3>Livadă</h3>
+                    <div class="price">1.400 lei <small>/lună</small></div>
+                    <ul>
+                        <li>Până la 30 de pomi</li>
+                        <li>Tăieri de formare</li>
+                        <li>Tratamente de sezon</li>
+                        <li>Fertilizare</li>
+                    </ul>
+                    <a href="#contact" class="btn-gold">Comandă</a>
+                </article>
+                <article class="service-card">
+                    <h3>Proiect nou</h3>
+                    <div class="price">3.500 lei <small> o dată</small></div>
+                    <ul>
+                        <li>Plan de amenajare</li>
+                        <li>Alegerea plantelor</li>
+                        <li>Plantare cu garanție</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline">Comandă</a>
+                </article>
+            </div>
+        </section>
+        <section class="newsletter" id="contact">
+            <div class="newsletter-box">
+                <h2>Calendarul grădinarului</h2>
+                <p>Lunar: ce plantezi, ce tai și ce tratezi în grădină.</p>
+                <form>
+                    <input type="email" placeholder="Adresa ta de e-mail" required>
+                    <button type="submit">Abonează-mă →</button>
+                </form>
+            </div>
+            <div class="mail-icon">✉</div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a class="footer-logo" href="#">🌱 RăsadVerde</a>
+        <p>Pepinieră de familie lângă Bălți. Creștem pomi fructifieri, arbuști și trandafiri din 1998.</p>
+          <nav class="footer-nav">
+            <a href="#">Acasă</a>
+            <a href="#catalog">Pomi</a>
+            <a href="#catalog">Arbuști</a>
+            <a href="#servicii">Grădinărit</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="socials">
+            <a href="#contact">f</a>
+            <a href="#contact">in</a>
+            <a href="#contact">ig</a>
+            <a href="#contact">yt</a>
+        </div>
+        <div class="copyright">
+            © 2026 Pepiniera RăsadVerde · Făcut cu ❤️ de <span>Costeniuc Ecaterina</span>
+        </div>
+    </footer>
+    <a href="#contact" class="floating-cart" aria-label="Coș de cumpărături">
+        🛒 <span>3</span>
+    </a>
+</div>
     </body>
 </html>
